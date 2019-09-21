@@ -1,17 +1,1 @@
-[
-    {
-        "title": "Hello World",
-        "time": "2019-06-07",
-        "file": "posts/1.md"
-    },
-    {
-        "title": "如何部署这个博客程序",
-        "time": "2019-06-07",
-        "file": "posts/2.md"
-    },
-    {
-        "title": "如何编写文章",
-        "time": "2019-06-07",
-        "file": "posts/3.md"
-    }
-]
+[{"title":"ls","time":"2019-09-21 12:11:17","file":"posts\/Linux中优秀的命令工具.md"}]
