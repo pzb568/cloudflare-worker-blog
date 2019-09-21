@@ -2,7 +2,7 @@
  *
  *  Cloudflare Workers Blog
  *
- *  https://github.com/kasuganosoras/cloudflare-worker-blog
+ *  https://github.com/pzb568/cloudflare-worker-blog
  *
  */
 
@@ -10,7 +10,7 @@
 const github_base = "pzb568/cloudflare-worker-blog";
 
 // 站点名称
-const site_name = "CloudFlare Workers Blog";
+const site_name = "风轻云淡";
 
 // 站点介绍
 const site_desc = "一个用 CloudFlare Worker 搭建的博客";
@@ -21,7 +21,7 @@ const highlight_main = "https://cn.tql.ink:4443/js/highlight.min.js";
 const highlight_pack = "https://cn.tql.ink:4443/js/highlight.pack.js";
 
 // Copyright
-const copyright = `&copy; 2019 ${site_name} | <a href="https://github.com/kasuganosoras/cloudflare-worker-blog" target="_blank">Github</a>`;
+const copyright = `&copy; 2019 ${site_name} | <a href="https://github.com/pzb568/cloudflare-worker-blog" target="_blank">Github</a>`;
 
 /* 配置到此结束 */
 
