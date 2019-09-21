@@ -1,22 +1,3 @@
----
-title: Markdown编辑器日常使用语法记录
-comments: true
-tags:
-  - hexo
-  - Markdown
-  - 语法
-  - 段首缩进
-  - 文本居中
-  - 音乐播放
-  - 视频播放
-  - 飘向北方
-  - Despacito
-categories:
-  - 软件工具
-abbrlink: 4703653d
-date: 2019-05-29 21:33:04
-description:
----
 &emsp;&emsp; Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
 &emsp;&emsp; hexo默认支持Markdown编辑文章，学习好Markdown 编辑器语法有利于更方便友好的写作;下面我会用一些事例分享Markdown 编辑器使用中的各种技巧。
 ## 段首缩进

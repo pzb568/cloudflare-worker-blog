@@ -1,16 +1,3 @@
----
-title: hexo网站permalink设置
-tags:
-  - hexo
-  - permalink
-categories:
-  - 网络应用
-comments: true
-mathjax: false
-abbrlink: a7ce4954
-date: 2019-08-09 23:14:27
----
-
 &emsp;&emsp; 网站搭建差不多2年了，没有设置过永久链接，所有的文章都是中文的以至于网站地址特别长，不方便记忆，不美观。利用**hexo-abbrlink**这个插件可以解决
 # 安装hexo-abbrlink
 ```

@@ -1,17 +1,3 @@
----
-title: hexo博客加密设置
-tags:
-  - 加密模板
-categories:
-  - hexo加密
-comments: true
-mathjax: false
-encrypt: true
-enc_pwd: 123456
-abbrlink: 456ff02a
-date: 2019-07-05 02:31:41
----
-
 &emsp;&emsp; 在添加 Hexo 博客 加密功能的模块有2个，一个是hexo-blog-encrypt，另一个是hexo-encrypt。可任选一个。
 # hexo-blog-encrypt插件
 ## 安装hexo-blog-encrypt插件

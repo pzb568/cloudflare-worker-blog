@@ -1,16 +1,3 @@
----
-title: hexo主题更新问题处理
-tags:
-  - hexo
-  - next
-  - 主题更新
-categories:
-  - 网络应用
-comments: true
-abbrlink: aaf37d53
-date: 2019-07-04 19:56:20
----
-
 &emsp;&emsp; 由于next主题经常更新，自己又在本地大量修改主题，更新中会有很多问题，经过很多次折腾及网络上其他朋友的教程，我找到了不错的处理方法。
 1. 进入主题目录并更新
 ```

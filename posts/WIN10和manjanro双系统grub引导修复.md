@@ -1,18 +1,3 @@
----
-title: WIN10和manjanro双系统grub引导修复
-tags:
-  - WIN10
-  - Linux
-  - manjanro
-  - grub
-  - 双系统修复
-categories:
-  - 操作系统
-comments: true
-abbrlink: 102fd15b
-date: 2019-02-26 21:55:54
----
-
 &emsp;&emsp; 安装WIN和Linux双系统时经常出现引导错误而无法加入任何一个系统的情况，这个时间不要重新安装，修复一下grub引导就好，重新安装又需要浪费很多时间及精力，我相信很多人用遇到这种情况，使用写一个教程给大家。
 
 # 修复引导

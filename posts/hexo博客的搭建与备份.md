@@ -1,18 +1,3 @@
----
-title: hexo博客的搭建与备份
-tags:
-  - hexo
-  - github
-  - git
-  - hexo备份
-  - hexo搭建
-  - termux
-categories:
-  - 应用软件
-comments: true
-abbrlink: 7a49eb42
-date: 2018-11-11 11:17:48
----
 # 一、搭建
 ====
 &emsp;&emsp; Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。hexo 博客在Linux系统中搭建是非常简单的，在WIN系统中比较复杂，我们接触的手机📱永远要比电脑的时间要多那么我们可以在安卓手机上使用termux来搭建，这样随时随地都可以写做和发表文章。

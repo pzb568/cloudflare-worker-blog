@@ -1,21 +1,3 @@
----
-title: hexo开启Mathjax语法渲染配置折腾记
-comments: true
-tags:
-  - hexo配置
-  - 开启mathjax  Latex
-  - 数学公式
-  - 化学工式
-  - 主题样式
-categories:
-  - 软件应用
-mathjax: true
-abbrlink: 97f2042f
-date: 2019-04-30 23:25:52
----
-
-Mathjax介绍
-====
 &emsp;&emsp; hexo默认的渲染器是marked，并不支持mathjax。kramed是在marked基础上修改的，支持了mathjax。在的hexo工程目录下的node_modules中可以找到对应的渲染器文件夹。同时在你的工程目录下用以下命令安装kramed。另外补充一个NexT配置中推荐的渲染器hexo-renderer-pandoc，功能很强大不仅可以渲染markdown，还支持textile、reStructedText等许多其他格式
 # 安装渲染器
 ## 卸载默认渲染器

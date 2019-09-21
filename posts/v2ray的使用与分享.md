@@ -1,26 +1,3 @@
----
-title: v2ray的使用方法与节点分享
-tags:
-  - 翻墙
-  - 网络长城
-  - 谷歌
-  - VPN
-  - 安卓
-  - 苹果
-  - window
-  - Linux
-  - 节点分享
-  - v2rayNG
-  - BifrostV
-  - Kitsunebi
-  - v2rayN
-categories:
-  - 科学上网
-comments: true
-abbrlink: 3be63484
-date: 2018-11-09 14:13:28
----
-
 &emsp;&emsp; v2ray是最新的翻墙软件，提高了安全性，减少被**防火墙**封锁的风险，同时可以使用ss的节点但是不支持SSR节点。 想了解详细的安装说明信息可以在去[官方网站](www.v2ray.com)或者去github [v2ray](https://github.com/v2ray/v2ray-core)开源项目的教程说明。
 
 ## 软件下载
