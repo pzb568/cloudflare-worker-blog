@@ -11,7 +11,7 @@ var site_favicon	 = "https://cn.tql.ink:4443/gitea/img/favicon.png";				// 站�
 
 // 博主信息
 var owner_name = "风轻云淡";									// 博主名字
-var owner_logo = "https://secure.gravatar.com/avatar/80962ca1ced98d0e679b2bc315d049f2?s=256"	// 博主头像
+var owner_logo = "http://lc-0ww4yxjs.cn-n1.lcfile.com/08d68726241e9640a99e/1140536605633105492.gif"	// 博主头像
 var owner_desc = "网络爱好者，日常水贴摸鱼，佛系出租服务器";					// 博主简介
 
 // 设置站点资源文件地址
