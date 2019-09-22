@@ -3,10 +3,10 @@ const github_base = "pzb568/cloudflare-worker-blog";
 
 // 设置站点信息
 var default_title	 = "风轻云淡";					// 站点标题（显示在浏览器标题栏）
-var default_intitle	 = "风轻云淡 Blog";								// 站点名称（显示在首页）
+var default_intitle	 = "即使明白世界的残酷，也要乐观对待";								// 站点名称（显示在首页）
 var default_description  = "欢迎访问风轻云淡博客，本博客分享一些相关的技术以及记录一些日常。"; 	// 站点简介，有利于 SEO
 var site_domain		 = "";								// 站点域名
-var site_subtitle	 = "即使明白世界的残酷，也要乐观对待";							// 站点副标题
+var site_subtitle	 = "风轻云淡";							// 站点副标题
 var site_favicon	 = "https://cn.tql.ink:4443/gitea/img/favicon.png";				// 站点 Logo
 
 // 博主信息
