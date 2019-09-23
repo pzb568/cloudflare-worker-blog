@@ -1,16 +1,3 @@
----
-title: 在termux安装archLinux
-tags:
-  - archLinux
-  - termux
-categories:
-  - 应用软件
-  - 安卓系统
-comments: true
-abbrlink: 65ad595e
-date: 2018-11-09 11:48:13
----
-
 # termux安装archLinux
 ## 一、下载
 1. git下载
