@@ -1,19 +1,3 @@
----
-title: 安卓手机利用termux搭建aria2下载服务
-tags:
-  - 下载
-  - termux
-  - Linux
-  - aria2
-categories:
-  - 应用软件
-comments: true
-abbrlink: 96deb912
-date: 2018-11-10 12:28:33
----
-aria2简介
-====
-
 &emsp;&emsp; Aria2 是一个用于 Linux、Windows 和 Mac OSX 的轻量级、多协议和多源的命令行下载管理器/实用程序。它支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink。aria2 可以通过内置的 JSON-RPC 和 XML-RPC 接口操作。它支持多线程，可以使用多个源或协议下载文件，确实可以加速并尽可能多的完成下载。它非常轻量级，不需要太多的内存和 CPU。我们可以使用它作为 BitTorrent 客户端，因为它有所有你想要的 BitTorrent 客户端的功能。
 &emsp;&emsp; 我们可以很容易的在所有的 Linux 发行版上安装 aria2 命令行下载器，例如 Debian、 Ubuntu、 Mint、 RHEL、 CentOS、 Fedora、 suse、 openSUSE、 Arch Linux、 Manjaro、 Mageia 等等……只需要输入下面的命令安装即可。对于 CentOS、 RHEL 系统，我们需要开启 uget 或者 RPMForge 库的支持。
 

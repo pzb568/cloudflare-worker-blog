@@ -1,15 +1,3 @@
----
-title: 网页插入pdf文件
-tags:
-  - hexo
-  - pdf
-categories:
-  - 文档教程
-comments: true
-mathjax: false
-abbrlink: 4ac99040
-date: 2019-07-05 03:15:12
----
 
 网页插入pdf文件
 第一方法
