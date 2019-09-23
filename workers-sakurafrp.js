@@ -3,16 +3,16 @@ const github_base = "pzb568/cloudflare-worker-blog";
 
 // 设置站点信息
 var default_title	 = "风轻云淡";					// 站点标题（显示在浏览器标题栏）
-var default_intitle	 = "即使明白世界的残酷，也要乐观对待";								// 站点名称（显示在首页）
+var default_intitle	 = "风轻云淡";								// 站点名称（显示在首页）
 var default_description  = "欢迎访问风轻云淡博客，本博客分享一些相关的技术以及记录一些日常。"; 	// 站点简介，有利于 SEO
-var site_domain		 = "";								// 站点域名
-var site_subtitle	 = "风轻云淡";							// 站点副标题
+var site_domain		 = "https://blog.pzb.workers.dev";								// 站点域名
+var site_subtitle	 = "把生命的每一天当生命的最后一秒";							// 站点副标题
 var site_favicon	 = "https://cn.tql.ink:4443/gitea/img/favicon.png";				// 站点 Logo
 
 // 博主信息
-var owner_name = "风轻云淡";									// 博主名字
+var owner_name = "pengzhaibo";									// 博主名字
 var owner_logo = "http://lc-0ww4yxjs.cn-n1.lcfile.com/08d68726241e9640a99e/1140536605633105492.gif"	// 博主头像
-var owner_desc = "网络爱好者，日常水贴摸鱼，佛系出租服务器";					// 博主简介
+var owner_desc = "即使明白世界的残酷，也要乐观对待";					// 博主简介
 
 // 设置站点资源文件地址
 var css_bootstrap	 = "https://cn.tql.ink:4443/css/bootstrap.min.css";	// Boostrap css 文件地址
