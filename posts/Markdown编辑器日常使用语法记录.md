@@ -1,3 +1,23 @@
+---
+title: Markdown编辑器日常使用语法记录
+comments: true
+tags:
+  - hexo
+  - Markdown
+  - 语法
+  - 段首缩进
+  - 文本居中
+  - 音乐播放
+  - 视频播放
+  - 飘向北方
+  - 图片墙
+  - Despacito
+categories:
+  - 软件工具
+abbrlink: 4703653d
+date: 2019-05-29 21:33:04
+description:
+---
 &emsp;&emsp; Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
 &emsp;&emsp; hexo默认支持Markdown编辑文章，学习好Markdown 编辑器语法有利于更方便友好的写作;下面我会用一些事例分享Markdown 编辑器使用中的各种技巧。
 ## 段首缩进
@@ -49,9 +69,16 @@
 ```
 [github](www.github.com)
 ```
+
 [github](www.github..com)
+
 2. 网址链接
-www.Google.hk
+
+```
+<www.Google.hk>
+```
+
+<www.Google.hk>
 
 # 插入音乐
 1. 安装
@@ -62,13 +89,18 @@ npm install --save hexo-tag-aplayer
 ```
 2. 使用
 代码如下
+
 ```
 {% aplayer "飘向北方" "黄明志,王力宏" "http://music.163.com/song/media/outer/url?id=461864856.mp3" "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559501443630&di=5d355fdbb782fb5bc06c476af70ba19a&imgtype=0&src=http%3A%2F%2Fsource.upupoo.com%2Ftheme%2F1800037383%2FpreviewFix.jpg" "lrc:lrc.txt" %}
 ```
+
 **欣赏音乐飘向北方-黄明志&王力宏**
+
 {% aplayer "飘向北方" "黄明志,王力宏" "http://music.163.com/song/media/outer/url?id=461864856.mp3" "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559501443630&di=5d355fdbb782fb5bc06c476af70ba19a&imgtype=0&src=http%3A%2F%2Fsource.upupoo.com%2Ftheme%2F1800037383%2FpreviewFix.jpg" "lrc:lrc.txt" %}
 
-[^_^]: # ({% aplayer "Despacito" "Luis Fonsi,Daddy Yankee" "http://music.163.com/song/media/outer/url?id=452613551.mp3" "https://cn.bing.com/th?id=OIP.gwgvhtMZN0GoZhZQ63OPhgAAAA&pid=Api&dpr=2.62" %})
+Despacito-DaddyYankee&Luis Fonsi
+
+{% aplayer "Despacito" "Luis Fonsi,Daddy Yankee" "http://music.163.com/song/media/outer/url?id=452613551.mp3" "https://cn.bing.com/th?id=OIP.gwgvhtMZN0GoZhZQ63OPhgAAAA&pid=Api&dpr=2.62" %} 
 
 # 插入视频
 1. 安装  
@@ -80,8 +112,11 @@ npm install --save hexo-tag-dplayer
 ```
 {% dplayer "url=https://vodkgeyttp8.vod.126.net/cloudmusic/YCEhICAiIWI1ISAxMSEiMA==/mv/5617127/36fb72932c6a0682fe09f201e2fdda0b.mp4?wsSecret=bd2a79912d92c40a0557933e82a43f57&wsTime=1562298067"  "pic=http://p1.music.126.net/xrLKWowydpr7W_g8YgKBRQ==/18730180580875994.jpg" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}
 ```
+
 **欣赏视频Despacito-DaddyYankee&Luis Fonsi**
+
 {% dplayer "url=https://vodkgeyttp8.vod.126.net/cloudmusic/YCEhICAiIWI1ISAxMSEiMA==/mv/5617127/36fb72932c6a0682fe09f201e2fdda0b.mp4?wsSecret=bd2a79912d92c40a0557933e82a43f57&wsTime=1562298067"  "pic=http://p1.music.126.net/xrLKWowydpr7W_g8YgKBRQ==/18730180580875994.jpg" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %}
+
 # 表格
 ```
 | 姓名 | 性别 | 电话 |
@@ -92,14 +127,99 @@ npm install --save hexo-tag-dplayer
 | :--- | :----: | ----: |
 | 张三 | 男 | 123456789123 |
 
+# 图片墙
+```
+{% gp 4-4 %}
+  ![](/photos/images/1.jpeg)
+  ![](/photos/images/2.jpeg)
+  ![](/photos/images/3.jpeg)
+  ![](/photos/images/4.jpeg)
+{% endgp %}
+```
+
+{% gp 4-4 %}
+  ![](/photos/images/1.jpeg)
+  ![](/photos/images/2.jpeg)
+  ![](/photos/images/3.jpeg)
+  ![](/photos/images/4.jpeg)
+{% endgp %}
+
+# 流程图
+
+```
+{% mermaid graph TD %}
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
+```
+
+{% mermaid graph TD %}
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
+
+```
+{% mermaid graph TD %}
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me thinksssss<br/>ssssssssssssssssssssss<br/>sssssssssssssssssssssssssss}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+{% endmermaid %}
+```
+
+{% mermaid graph TD %}
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me thinksssss<br/>ssssssssssssssssssssss<br/>sssssssssssssssssssssssssss}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+{% endmermaid %}
+
+# 按钮
+
+```
+{% button #, 开始 %}
+```
+
+{% button #, 开始 %}
 
 
+```
+{% btn #, Text %} {% btn #, 取消,, Title %}
+```
 
+{% btn #, 确定 %} {% btn #, 取消,, Title %}
 
+# 标签
 
+```
+Lorem {% label @ipsum %} {% label primary@dolor sit %} amet, consectetur {% label success@adipiscing elit, %} sed {% label info@do eiusmod %} tempor incididunt ut labore et dolore magna aliqua.
 
+Ut enim *{% label warning @ad %}* minim veniam, quis **{% label danger@nostrud %}** exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+Duis aute irure dolor in reprehenderit in voluptate ~~{% label default @velit %}~~ <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+```
 
+Lorem {% label @ipsum %} {% label primary@dolor sit %} amet, consectetur {% label success@adipiscing elit, %} sed {% label info@do eiusmod %} tempor incididunt ut labore et dolore magna aliqua.
 
+Ut enim *{% label warning @ad %}* minim veniam, quis **{% label danger@nostrud %}** exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+Duis aute irure dolor in reprehenderit in voluptate ~~{% label default @velit %}~~ <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+# 标注
+```
+{% note primary %}
+#### Primary Header
+**Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
+```
+
+{% note primary %}
+#### Primary Header
+**Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
