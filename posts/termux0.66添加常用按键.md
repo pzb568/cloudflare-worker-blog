@@ -1,3 +1,18 @@
+---
+title: termux0.66版本修改添加常用按键
+tags:
+  - termux
+  - 常用键
+categories:
+  - 应用软件
+  - 手机软件
+  - 安卓系统
+comments: true
+abbrlink: 25aac357
+date: 2019-02-26 20:26:22
+---
+
+
 &emsp;&emsp; termux0.66版本之后又改了快捷键，去掉了左右，home，更新后用的不习惯，并且不方便，可以修改并添加快捷键。
 1. 创建.termux文件夹
 ```

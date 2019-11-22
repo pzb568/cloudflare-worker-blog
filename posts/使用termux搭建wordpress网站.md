@@ -1,8 +1,26 @@
+---
+title: 使用termux搭建wordpress网站
+tags:
+  - termux
+  - wordpress
+  - 网站
+  - 博客
+  - mysql
+  - php
+  - caddy
+categories:
+  - 应用软件
+comments: true
+abbrlink: 371af598
+date: 2018-12-08 17:03:19
+---
+wordpress介绍
+====
 &emsp;&emsp; WordPress 是一种使用 PHP 语言和 MySQL 数据库开发的开源、免费的 Blog（博客，网志）引擎，用户可以在支持 PHP，MySQL 数据库的服务器上建立自己的 Blog。  
 
 LNMP方案 
 ----
-**Linux nginx mysql php**
+Linux nginx mysql php
 
 # 安装配置数据库MYSQL
 MariaDB 数据库管理系统是 MySQL 的一个分支，主要由开源社区在维护，采用 GPL 授权许可。开发这个分支的原因之一是：甲骨文公司收购了 MySQL 后，有将 MySQL 闭源的潜在风险，因此社区采用分支的方式来避开这个风险。
@@ -11,7 +29,7 @@ MariaDB 数据库管理系统是 MySQL 的一个分支，主要由开源社区�
 ```
 pkg install mariadb
 ```
-2. 安装基本数据
+~~2. 安装基本数据
 ```
 mysql_install_db
 ```
@@ -59,6 +77,9 @@ Disallow root login remotely? [Y/n] n          #是否不允许root远程登录
 Remove test database and access to it? [Y/n] n #是否移除test数据库
 Reload privilege tables now? [Y/n] y           #是否重新加载表的权限
 ```
+~~
+2. 修改数据库密码
+> 新版本升级修改密码有了一些变化，具体信息访问[termux wiki]()
 # 安装PHP
 ```
 pkg install php

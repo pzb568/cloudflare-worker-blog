@@ -1,3 +1,17 @@
+---
+title: termux安装使用you-get下载视频
+tags:
+  - 视频
+  - 嗅探
+  - 下载
+  - termux
+categories:
+  - 应用软件
+comments: true
+abbrlink: d8fa7a69
+date: 2018-11-10 12:49:14
+---
+
 You-Get简单介绍
 ====
 &emsp;&emsp; [you-get](https://github.com/soimort/you-get/wiki/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E)是一个基于 Python 3 的下载工具。使用 You-Get 可以很轻松的下载到网络上的视频、图片及音乐。

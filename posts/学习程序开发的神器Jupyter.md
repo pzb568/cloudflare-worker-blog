@@ -1,3 +1,17 @@
+---
+title: 学习程序开发的神器Jupyter notebook
+tags:
+  - termux
+  - Jupyter notebook
+categories:
+  - 编程开发
+  - 安卓系统
+comments: true
+abbrlink: 604fe14
+date: 2018-11-09 00:08:09
+---
+Jupyter notebook简介
+====
 &emsp;&emsp; Jupyter notebook（又称 IPython notebook），支持运行超过 40 种编程语言。Python 的一个强大的模块, 成功安装的话可以实现比caddy的效果, 支持web下的终端操作, 支持代码高亮运行。
 <escape><!-- more --></escape>
 # Jupyter notebook安装

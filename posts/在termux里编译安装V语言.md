@@ -1,3 +1,13 @@
+---
+title: 在termux里编译安装V语言
+categories:
+  - 软件开发
+tags:
+  - 编译
+  - V语言
+abbrlink: 1feab083
+date: 2019-07-11 14:27:45
+---
 &emsp;&emsp; V语言是一种静态类型的编译型编程语言，它与Go类似，也受到 Oberon、Rust、Swift语言的影响。
 
 V语言是一种非常简单的语言，阅读此文档将花费你大约半小时的时间来学习完几乎整个V语言。
@@ -35,19 +45,5 @@ v
 ```
 
 ![](https://i.bmp.ovh/imgs/2019/07/a0ffa8434fa5c47b.jpg)
-#### 
-
-
-
-
-# 
-
-## 
-
-### 
-
-#### 
-
-
 
 <!--more-->
