@@ -1,17 +1,3 @@
----
-title: 给网站添加谷歌Adsense广告
-comments: true
-tags:
-  - Google AdSense广告
-  - 收益
-categories:
-  - 网络应用
-abbrlink: 78f0295d
-date: 2019-05-19 09:52:00
----
-
-Google AdSense简介
-===
 
 &emsp;&emsp; AdSense是由Google(谷歌)公司面向广告发布者推出的一个广告服务项目. Google通过其另一个面向广告主的广告项目AdWords收集客户广告, 然后将这些广告以文本, 图片或视频的形式发布到申请了AdSense项目的网站上. Google从AdWords项目中向广告主收取广告服务费用, 而申请加入了AdSense的广告发布者(站长)按广告的点击数或展示数分得其中的部分收入.
 &emsp;&emsp; AdSense的商业原理和国内的多数广告同盟没有什么别, 说白了就是一个广告中介. 但Google AdSense能在众多广告服务提供商中脱颖而出, 不但是因为其强硬的公司背景, 也和这个项目的新技术使用分不开.

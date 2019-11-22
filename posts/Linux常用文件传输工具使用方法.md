@@ -1,15 +1,3 @@
----
-title: Linux常用文件传输工具使用方法
-tags:
-  - scp
-  - rsync
-  - syncthing
-categories:
-  - 软件应用
-comments: true
-abbrlink: b3144d70
-date: 2019-06-16 12:19:39
----
 
 &emsp;&emsp; Linux系统之间传送文件，包括Linux服务器和客户端之间，Linux主机和嵌入式Linux平台之间等，以及Linux和windows之间传送文件及同步工具；我们经常在不同的系统中或者主机设备中传输文件或者同步文件，以使用**scp**或者**rsync**及**syncthing**
 

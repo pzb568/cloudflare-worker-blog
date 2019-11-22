@@ -1,18 +1,3 @@
----
-title: hexo开启Mathjax语法渲染配置折腾记
-comments: true
-tags:
-  - hexo配置
-  - 开启mathjax  Latex
-  - 数学公式
-  - 化学工式
-  - 主题样式
-categories:
-  - 软件应用
-mathjax: true
-abbrlink: 97f2042f
-date: 2019-04-30 23:25:52
----
 
 Mathjax介绍
 ====

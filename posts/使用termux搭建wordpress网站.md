@@ -1,19 +1,4 @@
----
-title: 使用termux搭建wordpress网站
-tags:
-  - termux
-  - wordpress
-  - 网站
-  - 博客
-  - mysql
-  - php
-  - caddy
-categories:
-  - 应用软件
-comments: true
-abbrlink: 371af598
-date: 2018-12-08 17:03:19
----
+
 wordpress介绍
 ====
 &emsp;&emsp; WordPress 是一种使用 PHP 语言和 MySQL 数据库开发的开源、免费的 Blog（博客，网志）引擎，用户可以在支持 PHP，MySQL 数据库的服务器上建立自己的 Blog。  

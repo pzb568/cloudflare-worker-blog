@@ -1,21 +1,3 @@
----
-title: ss系列软件分享及使用
-tags:
-  - 翻墙
-  - 谷歌
-  - 安卓
-  - 苹果
-  - ss
-  - ss免费节点
-  - SSR
-  - SSR免费节点
-  - 节点分享
-categories:
-  - 科学上网
-comments: true
-abbrlink: 2d957091
-date: 2018-11-08 23:42:34
----
 
 &emsp;&emsp; ss是非常流行的翻墙软件，涵盖所有平台，安全性不如之后会介绍的v2ray，都是速度非常快。
 

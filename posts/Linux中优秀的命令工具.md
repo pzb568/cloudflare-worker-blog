@@ -1,19 +1,3 @@
----
-title: Linux中优秀的命令工具
-tags:
-  - exa
-  - bat
-  - fd
-  - ag
-  - axel
-  - mosh
-categories:
-  - 软件应用
-  - 使用教程
-comments: true
-abbrlink: ee59f1b1
-date: 2019-06-15 23:47:44
----
 
 &emsp;&emsp; Linux系统是非常强大的，期中有很多内置命令，随和用户的增加很多人自己贡献了很多优秀的工具，使我们可以更加方便捷的使用及工作。
 # exa

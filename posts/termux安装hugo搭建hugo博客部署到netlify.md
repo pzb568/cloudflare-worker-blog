@@ -1,21 +1,3 @@
----
-title: termux安装hugo搭建hugo博客部署到netlify
-draft: false
-keywords: []
-description: ''
-categories:
-  - 网络应用
-tags:
-  - termux
-  - hugo
-  - netlify
-  - 网站搭建
-  - 网站部署
-comment: true
-abbrlink: 8de2b9ae
-date: 2019-02-15 13:58:14
-lastmod: 2019-02-15 13:58:14
----
 
 # termux安装hugo
 ```

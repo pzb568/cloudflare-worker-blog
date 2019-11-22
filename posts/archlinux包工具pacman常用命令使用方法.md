@@ -1,15 +1,3 @@
----
-title: archlinux包工具pacman常用命令使用方法
-tags:
-  - pacman
-  - arch
-categories:
-  - 系统工具
-comments: true
-mathjax: false
-abbrlink: 57793a5c
-date: 2019-11-19 23:05:10
----
 
 &emsp;&emsp; Pacman 是一个软件包管理器,，作为ArchLinux发行版的一部分，是 Arch Linux 的一大亮点。它将一个简单的二进制包格式和易用的构建系统结合了起来。不管软件包是来自官方的 Arch 库还是用户自己创建，Pacman 都能方便的管理。
 # 查看

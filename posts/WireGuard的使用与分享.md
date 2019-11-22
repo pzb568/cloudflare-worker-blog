@@ -1,19 +1,4 @@
----
-title: WireGuard的使用与分享
-tags:
-  - VPN
-  - 谷歌
-  - 翻墙
-  - 安卓
-  - WireGuard
-categories:
-  - 应用软件
-  - 网络应用
-  - 安卓软件
-comments: true
-abbrlink: 1bd1d3ff
-date: 2018-11-17 15:06:36
----
+
 &emsp;&emsp; WireGuard是国外开发的一个高速翻墙工具，没有中文，但是非常简单好用，现在推荐给大家
 1.注册AzireVPN账号：https://www.azirevpn.com/manager/auth/login，只需要填写用户名USERNAME和密码PASSWORD即可，可以不填Email，这才是注重隐私的VPN供应商
 ~~2.下载配置文件：https://www.azirevpn.com/cfg/wireguard，在这个网址填写注册的用户名密码，点Download Configuration。目前提供了加拿大多伦多(azirevpn-ca1)，西班牙马拉加(azirevpn-es1)，瑞典斯德哥尔摩(azirevpn-se1)，英国伦敦(azirevpn-uk1)，美国迈阿密(azirevpn-us1)这5个节点~~之前有免费体验，现在只能购买了。
